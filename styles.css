@@ -1054,6 +1054,80 @@ right: 83em;
 }
 
 
+/*LES 4 BLOCS*/
+
+
+
+.pop h4::before{
+    content: url(images/shape-left.png);
+    margin-right: 7px;
+}
+
+.pop h4::after{
+    content: url(images/shape-right.png);
+    margin-right: 7px;
+}
+
+
+
+
+#soleil header p {
+    color: #777777;
+    text-align: center;
+}
+#soleil div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#soleil div article{
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: center;
+    border: #bdbaba solid 1px;
+    padding-bottom: 1em;
+    padding-top: 0em;
+    border-radius: 5px;
+    margin-bottom: 5em;
+}
+#cheval {
+    margin-top: 0em;
+    background-color: #383838;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'titre';
+    border: #383838;
+    height: 2em;
+    width: 17em;
+}
+#cheval:hover {
+    background-color: rgb(0, 169, 157);
+}
+#end{
+    background-color: rgb(0, 169, 157);
+    border: rgb(0, 169, 157);
+    color: white;
+}
+#argent {
+    font-family: 'titre';
+    font-weight: bolder;
+    font-size: 40px;
+}
+#vacances {
+    border-bottom: #bdbaba solid 1px;
+    border-top: #bdbaba solid 1px;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #777777;
+}
+#vacances p {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+
 
 
 
